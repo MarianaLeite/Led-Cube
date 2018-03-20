@@ -6,8 +6,6 @@ Modo binário: Os 10 primeiros LEDs representaram o valor binário obtido pela d
 
 Modo monitor simples: monitora-se apenas a temperatura interna do RN. O cubo de LEDs funcionam como indicador visual da temperatura do RN seguindo-se a seguinte estratégia: 
  
-36,5 a 37 °C                     LEDs verdes acesos 
-35 a 36,4 °C ou 37 a 38 °C       LEDs azuis piscando 
-<35 °C ou > 37,5 °C              LEDs vermelhos piscando 
+36,5 a 37 °C - LEDs verdes acesos; 35 a 36,4 °C ou 37 a 38 °C - LEDs azuis piscando; <35 °C ou > 37,5 °C - LEDs vermelhos piscando.
 
 Modo monitor completo: faz tudo o que o modo monitor simples executa e também monitora a temperatura ambiente. Caso a diferença entre a temperatura ambiente e a temperatura do RN for menor que 8 °C ou maior que 18 °C (ambiente de temperatura controlada), todos os 27 LEDs piscam indicando que o ambiente está se tornando insalubre ao RN.
